@@ -1,0 +1,123 @@
+.searchItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #575252;
+}
+
+.searchItemImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.searchItemDesc {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 8px;
+}
+
+.searchItemDistance {
+    font-size: 12px;
+}
+
+.searchItemTaxi {
+    font-size: 12px;
+    background: #008009;
+    color: #ffffff;
+    width: max-content;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.searchItemSubtitle {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.searchItemFeatures {
+    font-size: 12px;
+}
+
+.searchItemCancelOption {
+    font-size: 12px;
+    color:#008009;
+    font-weight: 500;
+}
+
+.searchItemOptionsSubtitle {
+    font-size: 12px;
+    color:#008009;
+    font-weight: 400;
+}
+
+.searchItemTitle {
+    font-size: 20px;
+    line-height: 0.5;
+    color: #0071c2;
+}
+
+.searchItemDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchItemRating {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchItemRating  > span {
+    font-weight: 500;
+}
+
+.itemLeft {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.searchItemRating > button {
+    background: #003580;
+    color: #ffffff;
+    padding: 5px 9px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px 5px 5px 0;
+}
+
+.searchItemDetailsText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.searchItemPrice {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.searchItemTaxiOptions, 
+.itemReviews,
+.offer {
+    font-size: 12px;
+    color: #575252;
+}
+
+.searchItemCheckButton {
+    float: right;
+    width: max-content;
+    background: #0071c2;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-weight: 300;
+}

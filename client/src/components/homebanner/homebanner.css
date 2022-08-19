@@ -1,0 +1,61 @@
+.homebanner {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-between; */
+    z-index: 1;
+}
+
+.homebannerFirst, .homebannerLast {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.homebannerFirst .homebannerItem,
+.homebannerLast .homebannerItem {
+    position: relative;
+    width: 100%;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.homebannerFirst .homebannerItem {
+    border-radius: 0;
+}
+
+.homebannerLast .homebannerItem {
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.homebannerImg {
+    height: 16rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.homebannerTitles {
+    width: 100%;
+    position: absolute;
+    top: 1px;
+    background: linear-gradient(to bottom,rgba(0,27,65,0.65) 0,rgba(0,27,65,0) 100%);
+}
+
+.homebannerTitles h1 {
+    font-size: 18px;
+    line-height: 0.2;
+    padding-left: 10px;
+}
+
+.homebannerTitles h2 {
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 0.2;
+}
