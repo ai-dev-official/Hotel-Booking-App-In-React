@@ -12,6 +12,7 @@ try {
     const hash = bcrypt.hashSync(req.body.password, salt);
 
     const newUser = new User ({ 
+        // ...req.body, alternatively replaces username and email
         username: req.body.username,
         email: req.body.email,
         password: hash,
@@ -44,7 +45,7 @@ export const login = async (req, res, next) => {
             httpOnly: true,
         })
         .status(200)
-        .json({...otherDetails});
+        .json({details: {...otherDetails}, isAdmin});
 
         } catch (error) {
             next(err);
