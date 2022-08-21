@@ -113,6 +113,7 @@
     color: #ffffff;
     background-color: #0071c2;
     border: none;
+    cursor: pointer;
 }
 .hotelsBook > p{
     font-size: 13px;

@@ -13,4 +13,4 @@ const MailList = () => {
   )
 }
 
-export default MailList
+export default MailList;
